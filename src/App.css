@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f4f6f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.post-card {
+  background: #f8fafc;
+  border-left: 5px solid #2563eb;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 6px;
+}
+
+.post-card h3 {
+  margin: 0 0 8px 0;
+  color: #111827;
+}
+
+.post-card p {
+  color: #555;
+  margin: 8px 0;
+}
+
+.delete-btn {
+  background: #dc2626;
+  width: auto;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background: #b91c1c;
+}
+
+ul {
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 16px;
+  padding: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
